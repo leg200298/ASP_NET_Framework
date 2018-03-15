@@ -23,10 +23,10 @@ namespace OGCCodeEF.Model
         [MaxLength(50)]
         public string Name { get; set; }
 
-        [MaxLength(100)]
+        [MaxLength(150)]
         public string Description { get; set; }
 
-        [MaxLength(100)]
+        [MaxLength(150)]
         public string ObservationType { get; set; }
 
         [MaxLength(150)]

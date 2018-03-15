@@ -23,13 +23,13 @@ namespace OGCCodeEF.Model
         [MaxLength(50)]
         public string Result { get; set; }
 
-        [MaxLength(100)]
+        [MaxLength(150)]
         public string ResultQuality { get; set; }
 
-        [MaxLength(100)]
+        [MaxLength(150)]
         public string ValidTime { get; set; }
 
-        [MaxLength(100)]
+        [MaxLength(300)]
         public string Parameters { get; set; }
 
         [Required]
