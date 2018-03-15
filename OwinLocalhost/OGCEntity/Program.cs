@@ -10,9 +10,9 @@ namespace OGCEntity
     {
         static void Main(string[] args)
         {
-            //OGCDbContext db = new OGCDbContext();
-            //db.thing.Add(new OGCCodeEF.Model.thing() { Name = "微波爐",Description="家裡微波用",Properties="{\"Color\": \"black\"}"});
-            //db.SaveChanges();
+            OGCDbContext db = new OGCDbContext();
+            db.thing.Add(new OGCCodeEF.Model.thing() { Name = "微波爐", Description = "家裡微波用", Properties = "{\"Color\": \"black\"}" });
+            db.SaveChanges();
             Console.ReadKey();
         }
     }

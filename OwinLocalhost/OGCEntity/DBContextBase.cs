@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OGCEntity
 {
-    [DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
+    //[DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
     public class DbContextBase<T>: DbContext where T: DbContext
     {
         public DbContextBase()
