@@ -10,8 +10,7 @@ namespace OGCEntity
     {
         static void Main(string[] args)
         {
-            //AddData();
-                
+            //AddData();              
             Console.ReadKey();
         }
 

@@ -88,7 +88,7 @@ namespace OwinLocalhost
             {
                 Dictionary<string, string> parameters = new Dictionary<string, string>()
                 {
-                    { "$expand", "auses related entities to be included inline in the response"},
+                    { "$expand", "Causes related entities to be included inline in the response"},
                     { "$filter", "A function that must evaluate to true for a record to be returned"},
                     { "$select", "Specifies a subset of properties to return"},
                     { "$orderby", "Determines what values are used to order a collection of records"},
